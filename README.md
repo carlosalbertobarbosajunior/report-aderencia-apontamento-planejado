@@ -4,9 +4,9 @@ Script capaz de ler as informações de programação do setor do planejamento e
 ## 1. Contextualização, objetivo e metodologia:
 O setor de planejamento da HKM Indústria e Comércio necessita verificar, semanalmente, a aderência entre as atividades planejadas e as executadas pela produção.<br>
 Em um processo de reeducação do apontamento de fábrica, é comum verificar apontamentos fora das atividades planejadas, ou ainda sobrecarregar uma atividade de múltiplos apontamentos, enquanto outras tarefas permanecem sem as horas trabalhadas que foram estipuladas.<br>
-Para auxiliar na visualização do tamanho da problemática, este algoritmo gera duas tabelas:
-    1. Apontamento de acordo com o planejado: Códigos de atividade que, de fato, houveram atividade tal qual o planejado.
-    2. Códigos planejados, mas sem apontamento: Códigos que deveriam ter atividades atreladas, mas por qualquer motivo não indicaram registro de trabalho no intervalo definido.    
+Para auxiliar na visualização do tamanho da problemática, este algoritmo gera duas tabelas:<br>
+    1. Apontamento de acordo com o planejado: Códigos de atividade que, de fato, houveram atividade tal qual o planejado.<br>
+    2. Códigos planejados, mas sem apontamento: Códigos que deveriam ter atividades atreladas, mas por qualquer motivo não indicaram registro de trabalho no intervalo definido.<br>
 As informações do planejamento são extraídas de uma tabela em excel, compartilhada na rede da empresa. Os dados de apontamento de fábrica são adquiridos via consulta ao banco de dados do ERP GRV.<br>
 O script finalizado foi baixado em formato .py (disponibilizado no repositório), e em seguida utilizou-se a biblioteca pyinstaller para gerar um executável, facilitando a interação com o usuário e eliminando a necessidade de ter python instalado no computador.
 
